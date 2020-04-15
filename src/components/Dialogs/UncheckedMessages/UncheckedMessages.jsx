@@ -1,0 +1,10 @@
+import React, {Component} from 'react';
+import classes from './../Dialogs.module.css';
+
+
+const UncheckedMessage = (props) => {
+    return <div className={classes.message}>..........{props.message}</div>
+};
+
+
+export default UncheckedMessage;

@@ -1,0 +1,25 @@
+.nav {
+    grid-area: n;
+    background-color: darkslategrey;
+}
+
+.item a {
+    text-decoration: none;
+    color: white;
+}
+
+.item a.activeLink {
+    color: darkorange;
+}
+
+.header {
+    font-size: 30px;
+    color: white;
+    padding: 25px;
+}
+
+.itemContent {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
